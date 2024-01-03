@@ -21,7 +21,9 @@ export async function focus() {
     return await runAppleScript(`
       on run
         tell application "System Events"
-          tell application process "${application}"		
+          tell application process "${application}"
+            activate
+            set frontmost to true
             perform action "AXRaise" of (first window)
           end tell
         end tell
@@ -32,7 +34,9 @@ export async function focus() {
   return await runAppleScript(` 
     on run
       tell application "System Events"
-          tell application process "${application}"		
+          tell application process "${application}"
+            activate
+            set frontmost to true
             perform action "AXRaise" of (first window whose name contains "${title}")
           end tell
       end tell
