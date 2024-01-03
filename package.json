@@ -5,6 +5,7 @@
   "description": "Add's keybinds to focus windows",
   "icon": "command-icon.png",
   "author": "jacobmeredith",
+  "owner": "jakemeredith",
   "categories": [
     "Productivity"
   ],
