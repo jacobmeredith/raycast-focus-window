@@ -6,6 +6,7 @@
   "icon": "command-icon.png",
   "author": "jacobmeredith",
   "owner": "jakemeredith",
+  "repository": "https://github.com/jacobmeredith/raycast-focus-window",
   "categories": [
     "Productivity"
   ],
